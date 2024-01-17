@@ -12,7 +12,7 @@ a:active {
 }
 
 a:focus {
-  outline: 2px solid red;
+  outline: 2px solid #3882f6;
 }
 
 a:hover {
