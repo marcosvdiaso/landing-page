@@ -3,13 +3,19 @@ body {
 	margin: 0;
 }
 
-a {
+a,
+a:visited,
+a:link,
+a:active {
 	color: #E5E7EB;
 	text-decoration: none;
 }
 
-a:hover,
-a:visited{
+a:focus {
+  outline: 2px solid red;
+}
+
+a:hover {
 	color: #3882f6;
 }
 
