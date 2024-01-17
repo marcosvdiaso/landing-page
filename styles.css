@@ -265,7 +265,6 @@ h2 {
 	.cta {
 		width: 100%;
 		height: 100%;
-		padding: 24px;
 	}
 }
 
@@ -297,6 +296,15 @@ h2 {
 	font-size: 16px;
 	display: block;
 	margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+
+	/* for screens smaller than 768px */
+	.cta-text,
+	.cta-button {
+		margin: 24px;
+	}
 }
 
 @media (max-width: 768px) {
